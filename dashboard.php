@@ -24,8 +24,8 @@ $user_role = htmlspecialchars($_SESSION['user_role']);  // 'Admin' or 'Klient'
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
+        background-color: #121212;
+        color: #e0e0e0;
         margin: 0;
         padding: 0;
     }
@@ -33,46 +33,46 @@ $user_role = htmlspecialchars($_SESSION['user_role']);  // 'Admin' or 'Klient'
         max-width: 900px;
         margin: 50px auto;
         padding: 30px;
-        background: #fff;
+        background: #1e1e1e;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         text-align: center;
     }
     header {
-        background: #2E7D32; 
+        background: #212121; 
         color: white;
         padding: 40px 0;
-        border-bottom: 5px solid #1B5E20; 
+        border-bottom: 5px solid #424242; 
         text-align: center;
     }
     nav {
         display: flex;
         justify-content: center;
-        background: #81C784;
+        background: #333333;
         padding: 15px;
         border-radius: 8px;
     }
     nav a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: none;
         padding: 10px 20px;
         font-size: 18px;
         margin: 0 10px;
         font-weight: bold;
-        background: #4CAF50;
+        background: #424242;
         border-radius: 5px;
         transition: background 0.3s ease;
     }
     nav a:hover {
-        background: #388E3C;
+        background: #616161;
     }
     footer {
         text-align: center;
         padding: 20px;
-        background: #2E7D32;
+        background: #212121;
         color: white;
         margin-top: 20px;
-        border-top: 3px solid #1B5E20;
+        border-top: 3px solid #424242;
     }
 </style>
 </head>
@@ -98,7 +98,7 @@ $user_role = htmlspecialchars($_SESSION['user_role']);  // 'Admin' or 'Klient'
 <div class="container">
     <h2>Rreth Nesh</h2>
     <p>
-        Mirë se vini në <span style="color: #2E7D32;">Restorantin Tradicional Shqiptar</span>, ku tradita dhe shija bashkohen për të krijuar përvoja të paharrueshme.
+        Mirë se vini në <span style="color: #42a5f5;">Restorantin Tradicional Shqiptar</span>, ku tradita dhe shija bashkohen për të krijuar përvoja të paharrueshme.
     </p>
 </div>
 

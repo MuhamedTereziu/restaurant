@@ -67,22 +67,22 @@ if ($result === false) {
 <style>
     body {
         font-family: 'Arial', sans-serif;
-        background-color: #f9f9f9;
+        background-color: #121212;
         margin: 0;
         padding: 20px;
-        color: #333;
+        color: #e0e0e0;
     }
     .container {
         max-width: 900px;
         margin: auto;
-        background: #fff;
+        background: #1e1e1e;
         padding: 30px;
         border-radius: 8px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     }
     h2 {
         text-align: center;
-        color: #333;
+        color: #e0e0e0;
         font-size: 28px;
         margin-bottom: 20px;
     }
@@ -92,25 +92,27 @@ if ($result === false) {
         margin-top: 20px;
     }
     th, td {
-        border: 1px solid #ddd;
+        border: 1px solid #424242;
         padding: 12px;
         text-align: center;
     }
     th {
-        background: #f1f1f1;
+        background: #333;
         font-weight: bold;
     }
     tr:nth-child(even) {
-        background-color: #f9f9f9;
+        background-color: #1e1e1e;
     }
     tr:hover {
-        background-color: #e6e6e6;
+        background-color: #333;
     }
     input[type="number"] {
         width: 60px;
         padding: 8px;
-        border: 1px solid #ccc;
+        border: 1px solid #424242;
         border-radius: 5px;
+        background: #333;
+        color: #e0e0e0;
     }
     button {
         padding: 10px 15px;
@@ -121,16 +123,16 @@ if ($result === false) {
         font-size: 14px;
     }
     .btn-update {
-        background: #4CAF50;
+        background: #42A5F5;
     }
     .btn-update:hover {
-        background: #45a049;
+        background: #2196F3;
     }
     .btn-delete {
-        background: #f44336;
+        background: #E57373;
     }
     .btn-delete:hover {
-        background: #e53935;
+        background: #EF5350;
     }
     .message {
         text-align: center;
@@ -141,11 +143,11 @@ if ($result === false) {
         font-weight: bold;
     }
     .message.success {
-        background-color: #4CAF50;
+        background-color: #42A5F5;
         color: white;
     }
     .message.error {
-        background-color: #f44336;
+        background-color: #E57373;
         color: white;
     }
 </style>
@@ -188,7 +190,7 @@ if ($result === false) {
 <div style="text-align: center; margin-top: 30px;">
     <a href="dashboard.php" style="
         display: inline-block;
-        background-color: #4CAF50;
+        background-color: #42A5F5;
         color: white;
         padding: 15px 30px;
         text-align: center;
